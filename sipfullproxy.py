@@ -18,7 +18,7 @@ import re
 import time
 import logging
 
-HOST, PORT = '10.10.39.96', 5060
+HOST, PORT = '0.0.0.0', 5060
 rx_register = re.compile("^REGISTER")
 rx_invite = re.compile("^INVITE")
 rx_ack = re.compile("^ACK")

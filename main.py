@@ -6,7 +6,6 @@ import sys
 import time
 import logging
 
-# 10.10.39.96
 HOST, PORT = '0.0.0.0', 5060
 
 if __name__ == "__main__":
